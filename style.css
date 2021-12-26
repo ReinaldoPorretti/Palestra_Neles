@@ -1,4 +1,16 @@
 body{
-    background-color: darkgreen;
-    color: azure;
+    margin: 0;
+    background-color: whitesmoke;
+    color: green;
+}
+.menu{
+    padding: 0;
+    margin: 0;
+    background-color: grey;
+}
+.simbolo{
+    padding: 20px;
+}
+p{
+    color: green;
 }
