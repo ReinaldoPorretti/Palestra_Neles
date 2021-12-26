@@ -1,3 +1,13 @@
+.conteudo_inicial {
+    display: flex;
+}
+.conteudo_inicial p{
+    margin-left: 80px;
+    display: flex;
+    width: 200px;
+}
+
+
 body{
     margin: 0;
     background-color: whitesmoke;
