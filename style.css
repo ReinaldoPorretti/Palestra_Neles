@@ -1,15 +1,24 @@
-.conteudo_inicial {
-    display: flex;
+.body_index{
+    background-image: url(images/fundo_inicial.jpg);
+    background-position: 50% 5% ;
+    background-repeat: no-repeat;
 }
-.conteudo_inicial p{
-    margin-left: 80px;
-    display: flex;
-    width: 200px;
+.conteudo_inicial{
+    margin-left: 71%;
+    margin-top: 4%;
+    font-size: 24pt;
+    font-family: 'Bebas Neue', cursive;
 }
-
-
+.conteudo_inicial img{
+    margin-top: 2%;
+    margin-left: 12%;
+}
+.conteudo_inicial a{
+    text-decoration: none;
+}
 body{
     margin: 0;
+    padding: 0;
     background-color: whitesmoke;
     color: green;
 }
@@ -17,17 +26,18 @@ body{
     padding: 0;
     margin: 0;
     display: flex;
-    background-color: rgb(98, 143, 98);
+    background-color: rgb(25, 66, 25);
 }
 .simbolo{
     margin-left: 6%;
     padding: 20px;
+    width: 420px;
 }
 .texto_menu{
     display: flex;
     width: 40%;
     margin:0;
-    margin-left: 10%;
+    margin-left: 16%;
     padding: 0;
     /*background-color: lightcoral;*/
 }
@@ -35,24 +45,27 @@ body{
     /*background: lawngreen;*/
     color: whitesmoke;
     width: 33.3%;
-    font-size: 13.5pt;
-    padding-top:90px;
+    font-size: 14pt;
+    padding-top:70px;
     text-align: center;
     list-style: none;
+    font-family: 'Bebas Neue', cursive;
 }
 .texto_menu a{
     /*background: lawngreen;*/
     text-decoration: none;
     color: whitesmoke;
 }
-.main{
-    height: 666px;
+.main img{
+    margin-top: 0;
+    width: 100%;
+    height: 800px;
+    border-top: 1px rgb(196, 51, 51) solid;
+    border-bottom: 1px rgb(196, 51, 51) solid;
 }
-p{
-    color: green;
-}
+
 footer{
-    background-color: rgb(98, 143, 98);
+    background-color: rgb(25, 66, 25);
     width: 100%;
     height: 80px;
     margin-top: 0;
@@ -62,4 +75,5 @@ footer p{
     text-align: center;
     padding-top: 30px;
     color: whitesmoke;
+    font-family: 'Bebas Neue', cursive;
 }
